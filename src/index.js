@@ -3,7 +3,7 @@ const fs = require('fs');
 const morgan = require('morgan');
 const app = express();
 const PORT = 8080;
-const TRADES_FILE = '../trades.json';
+const TRADES_FILE = './trades.json';
 
 
 app.use(express.json());
